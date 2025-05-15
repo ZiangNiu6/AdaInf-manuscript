@@ -1,0 +1,3318 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{adusumilli2023optimal}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AK}{%
+         family={Adusumilli},
+         familyi={A\bibinitperiod},
+         given={Karun},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AK1}
+    \strng{fullhash}{AK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Optimal tests following sequential experiments}
+    \field{journaltitle}{arXiv preprint arXiv:2305.00403}
+    \field{year}{2023}
+  \endentry
+
+  \entry{pmlr-v32-agarwalb14}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={Alekh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kale},
+         familyi={K\bibinitperiod},
+         given={Satyen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Langford},
+         familyi={L\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lihong},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schapire},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=XEP}{%
+         family={Xing},
+         familyi={X\bibinitperiod},
+         given={Eric\bibnamedelima P.},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jebara},
+         familyi={J\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AAHDKSLJLLSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    We present a new algorithm for the contextual bandit learning problem, where the learner repeatedly takes one of K \emphactions in response to the observed \emphcontext, and observes the \emphreward only for that action. Our method assumes access to an oracle for solving fully supervised cost-sensitive classification problems and achieves the statistically optimal regret guarantee with only \otil(\sqrtKT) oracle calls across all T rounds. By doing so, we obtain the most practical contextual bandit learning algorithm amongst approaches that work for general policy classes. We conduct a proof-of-concept experiment which demonstrates the excellent computational and statistical performance of (an online variant of) our algorithm relative to several strong baselines.%
+    }
+    \field{booktitle}{Proceedings of the 31st International Conference on Machine Learning}
+    \field{number}{2}
+    \field{pages}{1638\bibrangedash 1646}
+    \field{series}{Proceedings of Machine Learning Research}
+    \field{title}{Taming the Monster: A Fast and Simple Algorithm for Contextual Bandits}
+    \verb{url}
+    \verb https://proceedings.mlr.press/v32/agarwalb14.html
+    \endverb
+    \field{volume}{32}
+    \list{location}{1}{%
+      {Bejing, China}%
+    }
+    \verb{file}
+    \verb http://proceedings.mlr.press/v32/agarwalb14.pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{ambrosius2014design}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AWT}{%
+         family={Ambrosius},
+         familyi={A\bibinitperiod},
+         given={Walter\bibnamedelima T},
+         giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SKM}{%
+         family={Sink},
+         familyi={S\bibinitperiod},
+         given={Kaycee\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FCG}{%
+         family={Foy},
+         familyi={F\bibinitperiod},
+         given={Capri\bibnamedelima G},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BDR}{%
+         family={Berlowitz},
+         familyi={B\bibinitperiod},
+         given={Dan\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CAK}{%
+         family={Cheung},
+         familyi={C\bibinitperiod},
+         given={Alfred\bibnamedelima K},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=CWC}{%
+         family={Cushman},
+         familyi={C\bibinitperiod},
+         given={William\bibnamedelima C},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FLJ}{%
+         family={Fine},
+         familyi={F\bibinitperiod},
+         given={Lawrence\bibnamedelima J},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GJDC}{%
+         family={Goff\bibnamedelima Jr},
+         familyi={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={David\bibnamedelima C},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=JKC}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Karen\bibnamedelima C},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KAA}{%
+         family={Killeen},
+         familyi={K\bibinitperiod},
+         given={Anthony\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Publications Sage UK: London, England}%
+    }
+    \strng{namehash}{AWT+1}
+    \strng{fullhash}{AWTSKMFCGBDRCAKCWCFLJGJDCJKCKAA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{5}
+    \field{pages}{532\bibrangedash 546}
+    \field{title}{The design and rationale of a multicenter clinical trial comparing two strategies for control of systolic blood pressure: the Systolic Blood Pressure Intervention Trial (SPRINT)}
+    \field{volume}{11}
+    \field{journaltitle}{Clinical trials}
+    \field{year}{2014}
+  \endentry
+
+  \entry{bakshy2018ae}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=BE}{%
+         family={Bakshy},
+         familyi={B\bibinitperiod},
+         given={Eytan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dworkin},
+         familyi={D\bibinitperiod},
+         given={Lili},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Karrer},
+         familyi={K\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kashin},
+         familyi={K\bibinitperiod},
+         given={Konstantin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Letham},
+         familyi={L\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Murthy},
+         familyi={M\bibinitperiod},
+         given={Ashwin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Shaun},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BE+1}
+    \strng{fullhash}{BEDLKBKKLBMASS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Conference on neural information processing systems}
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{AE: A domain-agnostic platform for adaptive experimentation}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bauer1994evaluation}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BP}{%
+         family={Bauer},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={K{\"o}hne},
+         familyi={K\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{BP+1}
+    \strng{fullhash}{BPKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{1029\bibrangedash 1041}
+    \field{title}{Evaluation of experiments with adaptive interim analyses}
+    \field{journaltitle}{Biometrics}
+    \field{year}{1994}
+  \endentry
+
+  \entry{ben2024adaptive}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=BEM}{%
+         family={Ben-Eltriki},
+         familyi={B\bibinithyphendelim E\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rafiq},
+         familyi={R\bibinitperiod},
+         given={Aisha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Paul},
+         familyi={P\bibinitperiod},
+         given={Arun},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Prabhu},
+         familyi={P\bibinitperiod},
+         given={Devashree},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AMO}{%
+         family={Afolabi},
+         familyi={A\bibinitperiod},
+         given={Michael\bibnamedelima OS},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Baslhaw},
+         familyi={B\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NCJ}{%
+         family={Neilson},
+         familyi={N\bibinitperiod},
+         given={Christine\bibnamedelima J},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Driedger},
+         familyi={D\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MSM}{%
+         family={Mahmud},
+         familyi={M\bibinitperiod},
+         given={Salaheddin\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LMT}{%
+         family={Lacaze-Masmonteil},
+         familyi={L\bibinithyphendelim M\bibinitperiod},
+         given={Thierry},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BEM+1}
+    \strng{fullhash}{BEMRAPAPDAMOBRNCJDMMSMLMT+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{229}
+    \field{title}{Adaptive designs in clinical trials: a systematic review-part I}
+    \field{volume}{24}
+    \field{journaltitle}{BMC Medical Research Methodology}
+    \field{year}{2024}
+  \endentry
+
+  \entry{bibaut2021post}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BA}{%
+         family={Bibaut},
+         familyi={B\bibinitperiod},
+         given={Aur{\'e}lien},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dimakopoulou},
+         familyi={D\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kallus},
+         familyi={K\bibinitperiod},
+         given={Nathan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chambaz},
+         familyi={C\bibinitperiod},
+         given={Antoine},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=vDLM}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Der\bibnamedelima Laan},
+         familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA+1}
+    \strng{fullhash}{BADMKNCADLMv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{28548\bibrangedash 28559}
+    \field{title}{Post-contextual-bandit inference}
+    \field{volume}{34}
+    \field{journaltitle}{Advances in neural information processing systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{bibaut2024demistifying}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BA}{%
+         family={Bibaut},
+         familyi={B\bibinitperiod},
+         given={Aur{\'e}lien},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kallus},
+         familyi={K\bibinitperiod},
+         given={Nathan},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA+1}
+    \strng{fullhash}{BAKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Demistifying Inference after Adaptive Experiments}
+    \field{journaltitle}{arXiv preprint arXiv:2405.01281}
+    \field{year}{2024}
+  \endentry
+
+  \entry{bowden2017unbiased}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={Bowden},
+         familyi={B\bibinitperiod},
+         given={Jack},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Trippa},
+         familyi={T\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage UK: London, England}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{5}
+    \field{pages}{2376\bibrangedash 2388}
+    \field{title}{Unbiased estimation for response adaptive clinical trials}
+    \field{volume}{26}
+    \field{journaltitle}{Statistical methods in medical research}
+    \field{year}{2017}
+  \endentry
+
+  \entry{burnett2020adding}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BT}{%
+         family={Burnett},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Mozgunov},
+         familyi={M\bibinitperiod},
+         given={Pavel},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Pallmann},
+         familyi={P\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VSS}{%
+         family={Villar},
+         familyi={V\bibinitperiod},
+         given={Sofia\bibnamedelima S},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WGM}{%
+         family={Wheeler},
+         familyi={W\bibinitperiod},
+         given={Graham\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jaki},
+         familyi={J\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BT+1}
+    \strng{fullhash}{BTMPPPVSSWGMJT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{1\bibrangedash 21}
+    \field{title}{Adding flexibility to clinical trial designs: an example-based guide to the practical use of adaptive designs}
+    \field{volume}{18}
+    \field{journaltitle}{BMC medicine}
+    \field{year}{2020}
+  \endentry
+
+  \entry{chatterjee2008multivariate}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CS}{%
+         family={Chatterjee},
+         familyi={C\bibinitperiod},
+         given={Sourav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Meckes},
+         familyi={M\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{257\bibrangedash 283}
+    \field{title}{Multivariate normal approximation using exchange-able pairs}
+    \field{volume}{4}
+    \field{journaltitle}{Alea}
+    \field{year}{2008}
+  \endentry
+
+  \entry{che2024optimization}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CE}{%
+         family={Che},
+         familyi={C\bibinitperiod},
+         given={Ethan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=JDR}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Daniel\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Namkoong},
+         familyi={N\bibinitperiod},
+         given={Hongseok},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jimmy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CE+1}
+    \strng{fullhash}{CEJDRNHWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Optimization-Driven Adaptive Experimentation}
+    \field{journaltitle}{arXiv preprint arXiv:2408.04570}
+    \field{year}{2024}
+  \endentry
+
+  \entry{che2023adaptive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CE}{%
+         family={Che},
+         familyi={C\bibinitperiod},
+         given={Ethan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Namkoong},
+         familyi={N\bibinitperiod},
+         given={Hongseok},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CE+1}
+    \strng{fullhash}{CENH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Adaptive experimentation at scale: A computational framework for flexible batches}
+    \field{journaltitle}{arXiv preprint arXiv:2303.11582}
+    \field{year}{2023}
+  \endentry
+
+  \entry{chen2023optimal}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jiafeng},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Andrews},
+         familyi={A\bibinitperiod},
+         given={Isaiah},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Optimal conditional inference in adaptive experiments}
+    \field{journaltitle}{arXiv preprint arXiv:2309.12162}
+    \field{year}{2023}
+  \endentry
+
+  \entry{chen2004normal}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CLH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Louis\bibnamedelima HY},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SQM}{%
+         family={Shao},
+         familyi={S\bibinitperiod},
+         given={Qi-Man},
+         giveni={Q\bibinithyphendelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{CLH+1}
+    \strng{fullhash}{CLHSQM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{3}
+    \field{pages}{1985\bibrangedash 2028}
+    \field{title}{Normal approximation under local dependence}
+    \field{volume}{32}
+    \field{journaltitle}{Annals of probability: An official journal of the Institute of Mathematical Statistics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{collins2007multiphase}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CLM}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Linda\bibnamedelima M},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MSA}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Susan\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Strecher},
+         familyi={S\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CLM+1}
+    \strng{fullhash}{CLMMSASV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{5}
+    \field{pages}{S112\bibrangedash S118}
+    \field{title}{The multiphase optimization strategy (MOST) and the sequential multiple assignment randomized trial (SMART): new methods for more potent eHealth interventions}
+    \field{volume}{32}
+    \field{journaltitle}{American journal of preventive medicine}
+    \field{year}{2007}
+  \endentry
+
+  \entry{cox1975note}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CDR}{%
+         family={Cox},
+         familyi={C\bibinitperiod},
+         given={David\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{CDR1}
+    \strng{fullhash}{CDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{441\bibrangedash 444}
+    \field{title}{A note on data-splitting for the evaluation of significance levels}
+    \field{journaltitle}{Biometrika}
+    \field{year}{1975}
+  \endentry
+
+  \entry{cribari2000note}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CNF}{%
+         family={Cribari-Neto},
+         familyi={C\bibinithyphendelim N\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GNL}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Nancy\bibnamedelima Lopes},
+         giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VKL}{%
+         family={Vasconcellos},
+         familyi={V\bibinitperiod},
+         given={Klaus\bibnamedelima LP},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CNF+1}
+    \strng{fullhash}{CNFGNLVKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{2}
+    \field{pages}{269\bibrangedash 277}
+    \field{title}{A note on inverse moments of binomial variates}
+    \field{volume}{20}
+    \field{journaltitle}{Brazilian Review of Econometrics}
+    \field{year}{2000}
+  \endentry
+
+  \entry{crump2009dealing}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CRK}{%
+         family={Crump},
+         familyi={C\bibinitperiod},
+         given={Richard\bibnamedelima K},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HVJ}{%
+         family={Hotz},
+         familyi={H\bibinitperiod},
+         given={V\bibnamedelima Joseph},
+         giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=IGW}{%
+         family={Imbens},
+         familyi={I\bibinitperiod},
+         given={Guido\bibnamedelima W},
+         giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=MOA}{%
+         family={Mitnik},
+         familyi={M\bibinitperiod},
+         given={Oscar\bibnamedelima A},
+         giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{CRK+1}
+    \strng{fullhash}{CRKHVJIGWMOA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{1}
+    \field{pages}{187\bibrangedash 199}
+    \field{title}{Dealing with limited overlap in estimation of average treatment effects}
+    \field{volume}{96}
+    \field{journaltitle}{Biometrika}
+    \field{year}{2009}
+  \endentry
+
+  \entry{dimakopoulou2021online}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DM}{%
+         family={Dimakopoulou},
+         familyi={D\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RZ}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Zhimei},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Zhengyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DM+1}
+    \strng{fullhash}{DMRZZZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{pages}{1939\bibrangedash 1951}
+    \field{title}{Online multi-armed bandits with adaptive inference}
+    \field{volume}{34}
+    \field{journaltitle}{Advances in Neural Information Processing Systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{dimakopoulou2017estimation}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DM}{%
+         family={Dimakopoulou},
+         familyi={D\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Zhengyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Athey},
+         familyi={A\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=IG}{%
+         family={Imbens},
+         familyi={I\bibinitperiod},
+         given={Guido},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DM+1}
+    \strng{fullhash}{DMZZASIG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Estimation considerations in contextual bandits}
+    \field{journaltitle}{arXiv preprint arXiv:1711.07077}
+    \field{year}{2017}
+  \endentry
+
+  \entry{dixit2016perturb}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=DA}{%
+         family={Dixit},
+         familyi={D\bibinitperiod},
+         given={Atray},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PO}{%
+         family={Parnas},
+         familyi={P\bibinitperiod},
+         given={Oren},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Biyu},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jenny},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FCP}{%
+         family={Fulco},
+         familyi={F\bibinitperiod},
+         given={Charles\bibnamedelima P},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JAL}{%
+         family={Jerby-Arnon},
+         familyi={J\bibinithyphendelim A\bibinitperiod},
+         given={Livnat},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MND}{%
+         family={Marjanovic},
+         familyi={M\bibinitperiod},
+         given={Nemanja\bibnamedelima D},
+         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Dionne},
+         familyi={D\bibinitperiod},
+         given={Danielle},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Burks},
+         familyi={B\bibinitperiod},
+         given={Tyler},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Raychowdhury},
+         familyi={R\bibinitperiod},
+         given={Raktima},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DAPOLBCJFCPJALMNDDDBTRR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{7}
+    \field{pages}{1853\bibrangedash 1866}
+    \field{title}{Perturb-Seq: dissecting molecular circuits with scalable single-cell RNA profiling of pooled genetic screens}
+    \field{volume}{167}
+    \field{journaltitle}{cell}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Dudley_2002}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DRM}{%
+         family={Dudley},
+         familyi={D\bibinitperiod},
+         given={R.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{DRM1}
+    \strng{fullhash}{DRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{edition}{2}
+    \field{series}{Cambridge Studies in Advanced Mathematics}
+    \field{title}{Real Analysis and Probability}
+    \field{year}{2002}
+  \endentry
+
+  \entry{durrett2019probability}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DR}{%
+         family={Durrett},
+         familyi={D\bibinitperiod},
+         given={Rick},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge university press}%
+    }
+    \strng{namehash}{DR1}
+    \strng{fullhash}{DR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Probability: theory and examples}
+    \field{volume}{49}
+    \field{year}{2019}
+  \endentry
+
+  \entry{dwork2015reusable}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DC}{%
+         family={Dwork},
+         familyi={D\bibinitperiod},
+         given={Cynthia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FV}{%
+         family={Feldman},
+         familyi={F\bibinitperiod},
+         given={Vitaly},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hardt},
+         familyi={H\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pitassi},
+         familyi={P\bibinitperiod},
+         given={Toniann},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Reingold},
+         familyi={R\bibinitperiod},
+         given={Omer},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{DC+1}
+    \strng{fullhash}{DCFVHMPTRORA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{6248}
+    \field{pages}{636\bibrangedash 638}
+    \field{title}{The reusable holdout: Preserving validity in adaptive data analysis}
+    \field{volume}{349}
+    \field{journaltitle}{Science}
+    \field{year}{2015}
+  \endentry
+
+  \entry{fan2021diffusion}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FL}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GPW}{%
+         family={Glynn},
+         familyi={G\bibinitperiod},
+         given={Peter\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLGPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Diffusion approximations for thompson sampling}
+    \field{journaltitle}{arXiv preprint arXiv:2105.09232}
+    \field{year}{2021}
+  \endentry
+
+  \entry{fithian2014optimal}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FW}{%
+         family={Fithian},
+         familyi={F\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Dennis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FW+1}
+    \strng{fullhash}{FWSDTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Optimal inference after model selection}
+    \field{journaltitle}{arXiv preprint arXiv:1410.2597}
+    \field{year}{2014}
+  \endentry
+
+  \entry{us2019adaptive}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=FU}{%
+         family={Food},
+         familyi={F\bibinitperiod},
+         given={US},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Administration},
+         familyi={A\bibinitperiod},
+         given={Drug},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FU+1}
+    \strng{fullhash}{FUAD+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Adaptive designs for clinical trials of drugs and biologics}
+    \field{journaltitle}{Guidance for industry< https://www. fda. gov/media/78495/download}
+    \field{year}{2019}
+  \endentry
+
+  \entry{freidling2024selective}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FT}{%
+         family={Freidling},
+         familyi={F\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ZQ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Qingyuan},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=GZ}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Zijun},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FT+1}
+    \strng{fullhash}{FTZQGZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Selective Randomization Inference for Adaptive Experiments}
+    \field{journaltitle}{arXiv preprint arXiv:2405.07026}
+    \field{year}{2024}
+  \endentry
+
+  \entry{gasperini2019genome}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=GM}{%
+         family={Gasperini},
+         familyi={G\bibinitperiod},
+         given={Molly},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HAJ}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MFJL}{%
+         family={McFaline-Figueroa},
+         familyi={M\bibinithyphendelim F\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Beth},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Seungsoo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZMD}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Melissa\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=JD}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={Dana},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Leith},
+         familyi={L\bibinitperiod},
+         given={Anh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schreiber},
+         familyi={S\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NWS}{%
+         family={Noble},
+         familyi={N\bibinitperiod},
+         given={William\bibnamedelima S},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMHAJMFJLMBKSZMDJDLASJNWS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{1}
+    \field{pages}{377\bibrangedash 390}
+    \field{title}{A genome-wide framework for mapping gene regulation via cellular genetic screens}
+    \field{volume}{176}
+    \field{journaltitle}{Cell}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Hadad2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HV}{%
+         family={Hadad},
+         familyi={H\bibinitperiod},
+         given={Vitor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HDA}{%
+         family={Hirshberg},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zhan},
+         familyi={Z\bibinitperiod},
+         given={Ruohan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wager},
+         familyi={W\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Athey},
+         familyi={A\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {National Academy of Sciences}%
+    }
+    \strng{namehash}{HV+1}
+    \strng{fullhash}{HVHDAZRWSAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{15}
+    \field{pages}{e2014602118}
+    \field{title}{Confidence intervals for policy evaluation in adaptive experiments}
+    \field{volume}{118}
+    \field{journaltitle}{Proceedings of the national academy of sciences}
+    \field{year}{2021}
+  \endentry
+
+  \entry{han2024ucb}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HQ}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Qiyang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Khamaru},
+         familyi={K\bibinitperiod},
+         given={Koulik},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZCH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Cun-Hui},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HQ+1}
+    \strng{fullhash}{HQKKZCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{UCB algorithms for multi-armed bandits: Precise regret and adaptive inference}
+    \field{journaltitle}{arXiv preprint arXiv:2412.06126}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Hirano2023}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HK}{%
+         family={Hirano},
+         familyi={H\bibinitperiod},
+         given={Keisuke},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PJR}{%
+         family={Porter},
+         familyi={P\bibinitperiod},
+         given={Jack\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKPJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Asymptotic representations for sequential decisions, adaptive experiments, and batched bandits}
+    \field{journaltitle}{arXiv preprint arXiv:2302.03117}
+    \field{year}{2023}
+  \endentry
+
+  \entry{howard2022sequential}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HSR}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Steven\bibnamedelima R},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Bernoulli Society for Mathematical Statistics}%
+      {Probability}%
+    }
+    \strng{namehash}{HSR+1}
+    \strng{fullhash}{HSRRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{3}
+    \field{pages}{1704\bibrangedash 1728}
+    \field{title}{Sequential estimation of quantiles with applications to A/B testing and best-arm identification}
+    \field{volume}{28}
+    \field{journaltitle}{Bernoulli}
+    \field{year}{2022}
+  \endentry
+
+  \entry{howard2021time}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HSR}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Steven\bibnamedelima R},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McAuliffe},
+         familyi={M\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sekhon},
+         familyi={S\bibinitperiod},
+         given={Jasjeet},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSR+1}
+    \strng{fullhash}{HSRRAMJSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{2}
+    \field{pages}{1055\bibrangedash 1080}
+    \field{title}{Time-uniform, nonparametric, nonasymptotic confidence sequences}
+    \field{volume}{49}
+    \field{journaltitle}{The Annals of Statistics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{hu2006theory}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HF}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Feifang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RWF}{%
+         family={Rosenberger},
+         familyi={R\bibinitperiod},
+         given={William\bibnamedelima F},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{HF+1}
+    \strng{fullhash}{HFRWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{The theory of response-adaptive randomization in clinical trials}
+    \field{year}{2006}
+  \endentry
+
+  \entry{imbens2015causal}{book}{}
+    \name{author}{2}{}{%
+      {{hash=IGW}{%
+         family={Imbens},
+         familyi={I\bibinitperiod},
+         given={Guido\bibnamedelima W},
+         giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RDB}{%
+         family={Rubin},
+         familyi={R\bibinitperiod},
+         given={Donald\bibnamedelima B},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{IGW+1}
+    \strng{fullhash}{IGWRDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Causal inference in statistics, social, and biomedical sciences}
+    \field{year}{2015}
+  \endentry
+
+  \entry{hannah_a_jin_2023_8192805}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=JHA}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Hannah\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Bekerman},
+         familyi={B\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SDS}{%
+         family={Small},
+         familyi={S\bibinitperiod},
+         given={Dylan\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rabinowitz},
+         familyi={R\bibinitperiod},
+         given={Amanda},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Zenodo}%
+    }
+    \strng{namehash}{JHA+1}
+    \strng{fullhash}{JHABWSDSRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.5281/zenodo.8192805
+    \endverb
+    \field{title}{Protocol for an Observational Study on Effects of Contact, Collision, and Non-Contact Sports Participation on Cognitive and Emotional Health}
+    \verb{url}
+    \verb https://doi.org/10.5281/zenodo.8192805
+    \endverb
+    \field{month}{07}
+    \field{year}{2023}
+  \endentry
+
+  \entry{johari2015always}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JR}{%
+         family={Johari},
+         familyi={J\bibinitperiod},
+         given={Ramesh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pekelis},
+         familyi={P\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WDJ}{%
+         family={Walsh},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JR+1}
+    \strng{fullhash}{JRPLWDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Always valid inference: Bringing sequential analysis to A/B testing}
+    \field{journaltitle}{arXiv preprint arXiv:1512.04922}
+    \field{year}{2015}
+  \endentry
+
+  \entry{kasy2021adaptive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kasy},
+         familyi={K\bibinitperiod},
+         given={Maximilian},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sautmann},
+         familyi={S\bibinitperiod},
+         given={Anja},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{KM+1}
+    \strng{fullhash}{KMSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{113\bibrangedash 132}
+    \field{title}{Adaptive treatment assignment in experiments for policy choice}
+    \field{volume}{89}
+    \field{journaltitle}{Econometrica}
+    \field{year}{2021}
+  \endentry
+
+  \entry{khamaru2024inference}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KK}{%
+         family={Khamaru},
+         familyi={K\bibinitperiod},
+         given={Koulik},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZCH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Cun-Hui},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KK+1}
+    \strng{fullhash}{KKZCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Inference with the upper confidence bound algorithm}
+    \field{journaltitle}{arXiv preprint arXiv:2408.04595}
+    \field{year}{2024}
+  \endentry
+
+  \entry{kizilcec2020scaling}{article}{}
+    \name{author}{9}{}{%
+      {{hash=KRF}{%
+         family={Kizilcec},
+         familyi={K\bibinitperiod},
+         given={Ren{\'e}\bibnamedelima F},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Reich},
+         familyi={R\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YM}{%
+         family={Yeomans},
+         familyi={Y\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dann},
+         familyi={D\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brunskill},
+         familyi={B\bibinitperiod},
+         given={Emma},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lopez},
+         familyi={L\bibinitperiod},
+         given={Glenn},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Turkay},
+         familyi={T\bibinitperiod},
+         given={Selen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WJJ}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Joseph\bibnamedelima Jay},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tingley},
+         familyi={T\bibinitperiod},
+         given={Dustin},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {National Acad Sciences}%
+    }
+    \strng{namehash}{KRF+1}
+    \strng{fullhash}{KRFRJYMDCBELGTSWJJTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{26}
+    \field{pages}{14900\bibrangedash 14905}
+    \field{title}{Scaling up behavioral science interventions in online education}
+    \field{volume}{117}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2020}
+  \endentry
+
+  \entry{klasnja2019efficacy}{article}{}
+    \name{author}{8}{}{%
+      {{hash=KP}{%
+         family={Klasnja},
+         familyi={K\bibinitperiod},
+         given={Predrag},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Shawna},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SNJ}{%
+         family={Seewald},
+         familyi={S\bibinitperiod},
+         given={Nicholas\bibnamedelima J},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={Kelly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Luers},
+         familyi={L\bibinitperiod},
+         given={Brook},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HEB}{%
+         family={Hekler},
+         familyi={H\bibinitperiod},
+         given={Eric\bibnamedelima B},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MSA}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Susan\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press US}%
+    }
+    \strng{namehash}{KP+1}
+    \strng{fullhash}{KPSSSNJLAHKLBHEBMSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{6}
+    \field{pages}{573\bibrangedash 582}
+    \field{title}{Efficacy of contextually tailored suggestions for physical activity: a micro-randomized optimization trial of HeartSteps}
+    \field{volume}{53}
+    \field{journaltitle}{Annals of Behavioral Medicine}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Lista2017}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Klenke},
+         familyi={K\bibinitperiod},
+         given={Achim},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The main goal of an experimental physicist is to measure quantities of interest, possibly with the best precision. In the luckiest cases, measurements lead to the discovery of new physical phenomena that may represent a breakthrough in the knowledge of Nature. Measurements, and, more in general, observations of Nature's behavior, are performed with experiments that record quantitative information about the physical phenomenon under observation.%
+    }
+    \field{booktitle}{Lecture Notes in Physics}
+    \field{isbn}{9781447153603}
+    \field{issn}{00758450}
+    \field{pages}{1\bibrangedash 23}
+    \field{title}{{Probability theory}}
+    \field{volume}{941}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{kuang2024weak}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KX}{%
+         family={Kuang},
+         familyi={K\bibinitperiod},
+         given={Xu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wager},
+         familyi={W\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {INFORMS}%
+    }
+    \strng{namehash}{KX+1}
+    \strng{fullhash}{KXWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{10}
+    \field{pages}{7024\bibrangedash 7041}
+    \field{title}{Weak signal asymptotics for sequentially randomized experiments}
+    \field{volume}{70}
+    \field{journaltitle}{Management Science}
+    \field{year}{2024}
+  \endentry
+
+  \entry{lai1985asymptotically}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LTL}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={Tze\bibnamedelima Leung},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Robbins},
+         familyi={R\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \strng{namehash}{LTL+1}
+    \strng{fullhash}{LTLRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1985}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1}
+    \field{pages}{4\bibrangedash 22}
+    \field{title}{Asymptotically efficient adaptive allocation rules}
+    \field{volume}{6}
+    \field{journaltitle}{Advances in applied mathematics}
+    \field{year}{1985}
+  \endentry
+
+  \entry{lattimore2020bandit}{book}{}
+    \name{author}{2}{}{%
+      {{hash=LT}{%
+         family={Lattimore},
+         familyi={L\bibinitperiod},
+         given={Tor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Szepesv{\'a}ri},
+         familyi={S\bibinitperiod},
+         given={Csaba},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LT+1}
+    \strng{fullhash}{LTSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Bandit algorithms}
+    \field{year}{2020}
+  \endentry
+
+  \entry{le1972limits}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=LCL}{%
+         family={Le\bibnamedelima Cam},
+         familyi={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Lucien},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCL+1}
+    \strng{fullhash}{LCL+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1972}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Proceedings of the Sixth Berkeley Symposium on Mathematical Statistics and Probability}
+    \field{pages}{245\bibrangedash 261}
+    \field{title}{Limits of experiments}
+    \field{volume}{1}
+    \field{year}{1972}
+  \endentry
+
+  \entry{li2024double}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LHH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Harrison\bibnamedelima H},
+         giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=OAB}{%
+         family={Owen},
+         familyi={O\bibinitperiod},
+         given={Art\bibnamedelima B},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {De Gruyter}%
+    }
+    \strng{namehash}{LHH+1}
+    \strng{fullhash}{LHHOAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1}
+    \field{pages}{20230068}
+    \field{title}{Double machine learning and design in batch adaptive experiments}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of Causal Inference}
+    \field{year}{2024}
+  \endentry
+
+  \entry{li2010contextual}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lihong},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Langford},
+         familyi={L\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SRE}{%
+         family={Schapire},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LL+1}
+    \strng{fullhash}{LLCWLJSRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Proceedings of the 19th international conference on World wide web}
+    \field{pages}{661\bibrangedash 670}
+    \field{title}{A contextual-bandit approach to personalized news article recommendation}
+    \field{year}{2010}
+  \endentry
+
+  \entry{liang2023experimental}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LB}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Biyonka},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bojinov},
+         familyi={B\bibinitperiod},
+         given={Iavor},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LB+1}
+    \strng{fullhash}{LBBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{An experimental design for anytime-valid causal inference on multi-armed bandits}
+    \field{journaltitle}{arXiv preprint arXiv:2311.05794}
+    \field{year}{2023}
+  \endentry
+
+  \entry{liao2020personalized}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LP}{%
+         family={Liao},
+         familyi={L\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Greenewald},
+         familyi={G\bibinitperiod},
+         given={Kristjan},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Klasnja},
+         familyi={K\bibinitperiod},
+         given={Predrag},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM New York, NY, USA}%
+    }
+    \strng{namehash}{LP+1}
+    \strng{fullhash}{LPGKKPMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 22}
+    \field{title}{Personalized heartsteps: A reinforcement learning algorithm for optimizing physical activity}
+    \field{volume}{4}
+    \field{journaltitle}{Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}
+    \field{year}{2020}
+  \endentry
+
+  \entry{lin2013agnostic}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LW}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Winston},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{LW1}
+    \strng{fullhash}{LW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1}
+    \field{title}{Agnostic notes on regression adjustments to experimental data: Reexamining Freedman’s critique}
+    \field{volume}{7}
+    \field{journaltitle}{The Annals of Applied Statistics}
+    \field{year}{2013}
+  \endentry
+
+  \entry{lin2021inference}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LZ}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Zhantao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Flournoy},
+         familyi={F\bibinitperiod},
+         given={Nancy},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RWF}{%
+         family={Rosenberger},
+         familyi={R\bibinitperiod},
+         given={William\bibnamedelima F},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{LZ+1}
+    \strng{fullhash}{LZFNRWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{5}
+    \field{pages}{2697\bibrangedash 2720}
+    \field{title}{Inference for a two-stage enrichment design}
+    \field{volume}{49}
+    \field{journaltitle}{The Annals of Statistics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{luedtke2016statistical}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LAR}{%
+         family={Luedtke},
+         familyi={L\bibinitperiod},
+         given={Alexander\bibnamedelima R},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=VDLMJ}{%
+         family={Van Der\bibnamedelima Laan},
+         familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Mark\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {NIH Public Access}%
+    }
+    \strng{namehash}{LAR+1}
+    \strng{fullhash}{LARVDLMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{2}
+    \field{pages}{713}
+    \field{title}{Statistical inference for the mean outcome under a possibly non-unique optimal treatment strategy}
+    \field{volume}{44}
+    \field{journaltitle}{Annals of statistics}
+    \field{year}{2016}
+  \endentry
+
+  \entry{magnusson2013group}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MBP}{%
+         family={Magnusson},
+         familyi={M\bibinitperiod},
+         given={Baldur\bibnamedelima P},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=TBW}{%
+         family={Turnbull},
+         familyi={T\bibinitperiod},
+         given={Bruce\bibnamedelima W},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{MBP+1}
+    \strng{fullhash}{MBPTBW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{16}
+    \field{pages}{2695\bibrangedash 2714}
+    \field{title}{Group sequential enrichment design incorporating subgroup selection}
+    \field{volume}{32}
+    \field{journaltitle}{Statistics in medicine}
+    \field{year}{2013}
+  \endentry
+
+  \entry{maharaj2023anytime}{inproceedings}{}
+    \name{author}{10}{}{%
+      {{hash=MA}{%
+         family={Maharaj},
+         familyi={M\bibinitperiod},
+         given={Akash},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sinha},
+         familyi={S\bibinitperiod},
+         given={Ritwik},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Arbour},
+         familyi={A\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WSI}{%
+         family={Waudby-Smith},
+         familyi={W\bibinithyphendelim S\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LSZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Simon\bibnamedelima Z},
+         giveni={S\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sinha},
+         familyi={S\bibinitperiod},
+         given={Moumita},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Addanki},
+         familyi={A\bibinitperiod},
+         given={Raghavendra},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Garg},
+         familyi={G\bibinitperiod},
+         given={Manas},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Swaminathan},
+         familyi={S\bibinitperiod},
+         given={Viswanathan},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MASRADWSILSZSMARRAGMSV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Companion Proceedings of the ACM Web Conference 2023}
+    \field{pages}{396\bibrangedash 400}
+    \field{title}{Anytime-valid confidence sequences in an enterprise a/b testing platform}
+    \field{year}{2023}
+  \endentry
+
+  \entry{marschner2021general}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MIC}{%
+         family={Marschner},
+         familyi={M\bibinitperiod},
+         given={Ian\bibnamedelima C},
+         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{MIC1}
+    \strng{fullhash}{MIC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{3}
+    \field{pages}{465\bibrangedash 492}
+    \field{title}{A general framework for the analysis of adaptive experiments}
+    \field{volume}{36}
+    \field{journaltitle}{Statistical Science}
+    \field{year}{2021}
+  \endentry
+
+  \entry{meckes2009stein}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=ME}{%
+         family={Meckes},
+         familyi={M\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{ME1}
+    \strng{fullhash}{ME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{High dimensional probability V: the Luminy volume}
+    \field{pages}{153\bibrangedash 179}
+    \field{title}{On Stein’s method for multivariate normal approximation}
+    \field{volume}{5}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Meckes2009}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MMW}{%
+         family={Meckes},
+         familyi={M\bibinitperiod},
+         given={Mark\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{Central limit theorem; convex bodies; Stein's method}
+    \strng{namehash}{MMW1}
+    \strng{fullhash}{MMW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1}
+    \field{pages}{101\bibrangedash 118}
+    \field{title}{Gaussian marginals of convex bodies with symmetries.}
+    \verb{url}
+    \verb http://eudml.org/doc/230461
+    \endverb
+    \field{volume}{50}
+    \field{journaltitle}{Beiträge zur Algebra und Geometrie}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Nair2023}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NY}{%
+         family={Nair},
+         familyi={N\bibinitperiod},
+         given={Yash},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Janson},
+         familyi={J\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NY+1}
+    \strng{fullhash}{NYJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Randomization tests for adaptively collected data}
+    \field{journaltitle}{arXiv preprint arXiv:2301.05365}
+    \field{year}{2023}
+  \endentry
+
+  \entry{neal2011interval}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ND}{%
+         family={Neal},
+         familyi={N\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Casella},
+         familyi={C\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YMC}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Mark\bibnamedelima CK},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WSS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Samuel\bibnamedelima S},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{ND+1}
+    \strng{fullhash}{NDCGYMCWSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{number}{23}
+    \field{pages}{2804\bibrangedash 2814}
+    \field{title}{Interval estimation in two-stage, drop-the-losers clinical trials with flexible treatment selection}
+    \field{volume}{30}
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{2011}
+  \endentry
+
+  \entry{niu2024reconciling}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NZ}{%
+         family={Niu},
+         familyi={N\bibinitperiod},
+         given={Ziang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chakraborty},
+         familyi={C\bibinitperiod},
+         given={Abhinav},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DO}{%
+         family={Dukes},
+         familyi={D\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Katsevich},
+         familyi={K\bibinitperiod},
+         given={Eugene},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{NZ+1}
+    \strng{fullhash}{NZCADOKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{number}{3}
+    \field{pages}{895\bibrangedash 921}
+    \field{title}{Reconciling model-X and doubly robust approaches to conditional independence testing}
+    \field{volume}{52}
+    \field{journaltitle}{The Annals of Statistics}
+    \field{year}{2024}
+  \endentry
+
+  \entry{offer2021adaptive}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OWM}{%
+         family={Offer-Westort},
+         familyi={O\bibinithyphendelim W\bibinitperiod},
+         given={Molly},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Coppock},
+         familyi={C\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GDP}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Donald\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{OWM+1}
+    \strng{fullhash}{OWMCAGDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{number}{4}
+    \field{pages}{826\bibrangedash 844}
+    \field{title}{Adaptive experimental design: Prospects and applications in political science}
+    \field{volume}{65}
+    \field{journaltitle}{American Journal of Political Science}
+    \field{year}{2021}
+  \endentry
+
+  \entry{rafferty2019statistical}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{3}{}{%
+      {{hash=RA}{%
+         family={Rafferty},
+         familyi={R\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Ying},
+         familyi={Y\bibinitperiod},
+         given={Huiji},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RAYHWJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{1}
+    \field{pages}{47\bibrangedash 79}
+    \field{title}{Statistical consequences of using multi-armed bandits to conduct adaptive educational experiments}
+    \field{volume}{11}
+    \field{journaltitle}{Journal of Educational Data Mining}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ramdas2023game}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gr{\"u}nwald},
+         familyi={G\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vovk},
+         familyi={V\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Shafer},
+         familyi={S\bibinitperiod},
+         given={Glenn},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institute of Mathematical Statistics}%
+    }
+    \strng{namehash}{RA+2}
+    \strng{fullhash}{RAGPVVSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{4}
+    \field{pages}{576\bibrangedash 601}
+    \field{title}{Game-theoretic statistics and safe anytime-valid inference}
+    \field{volume}{38}
+    \field{journaltitle}{Statistical Science}
+    \field{year}{2023}
+  \endentry
+
+  \entry{ren2024lai}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RH}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Huachen},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZCH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Cun-Hui},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RH+1}
+    \strng{fullhash}{RHZCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{On Lai's Upper Confidence Bound in Multi-Armed Bandits}
+    \field{journaltitle}{arXiv preprint arXiv:2410.02279}
+    \field{year}{2024}
+  \endentry
+
+  \entry{russo2016simple}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=RD}{%
+         family={Russo},
+         familyi={R\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{RD1}
+    \strng{fullhash}{RD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Conference on Learning Theory}
+    \field{pages}{1417\bibrangedash 1418}
+    \field{title}{Simple bayesian algorithms for best arm identification}
+    \field{year}{2016}
+  \endentry
+
+  \entry{sampson2005drop}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SAR}{%
+         family={Sampson},
+         familyi={S\bibinitperiod},
+         given={Allan\bibnamedelima R},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SMW}{%
+         family={Sill},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima W},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{SAR+1}
+    \strng{fullhash}{SARSMW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{257\bibrangedash 268}
+    \field{title}{Drop-the-losers design: normal case}
+    \field{volume}{47}
+    \field{journaltitle}{Biometrical Journal: Journal of Mathematical Methods in Biosciences}
+    \field{year}{2005}
+  \endentry
+
+  \entry{schraivogel2023pooled}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SD}{%
+         family={Schraivogel},
+         familyi={S\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SLM}{%
+         family={Steinmetz},
+         familyi={S\bibinitperiod},
+         given={Lars\bibnamedelima M},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Parts},
+         familyi={P\bibinitperiod},
+         given={Leopold},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \strng{namehash}{SD+1}
+    \strng{fullhash}{SDSLMPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{223\bibrangedash 244}
+    \field{title}{Pooled Genome-Scale CRISPR Screens in Single Cells}
+    \field{volume}{57}
+    \field{journaltitle}{Annual Review of Genetics}
+    \field{year}{2023}
+  \endentry
+
+  \entry{shen2014inverse}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SC}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Changyu},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xiaochun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lingling},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCLXLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{pages}{555\bibrangedash 568}
+    \field{title}{Inverse probability weighting for covariate adjustment in randomized studies}
+    \field{volume}{33}
+    \field{journaltitle}{Statistics in medicine}
+    \field{year}{2014}
+  \endentry
+
+  \entry{shin2019sample}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SJ}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Jaehyeok},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rinaldo},
+         familyi={R\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJRARA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Are sample means in multi-armed bandits positively or negatively biased?}
+    \field{volume}{32}
+    \field{journaltitle}{Advances in Neural Information Processing Systems}
+    \field{year}{2019}
+  \endentry
+
+  \entry{shin2021bias}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SJ}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Jaehyeok},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rinaldo},
+         familyi={R\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SIAM}%
+    }
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJRARA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{pages}{1278\bibrangedash 1300}
+    \field{title}{On the bias, risk, and consistency of sample means in multi-armed bandits}
+    \field{volume}{3}
+    \field{journaltitle}{SIAM Journal on Mathematics of Data Science}
+    \field{year}{2021}
+  \endentry
+
+  \entry{sill2009drop}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SMW}{%
+         family={Sill},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima W},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SAR}{%
+         family={Sampson},
+         familyi={S\bibinitperiod},
+         given={Allan\bibnamedelima R},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SMW+1}
+    \strng{fullhash}{SMWSAR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{586\bibrangedash 595}
+    \field{title}{Drop-the-losers design: binomial case}
+    \field{volume}{53}
+    \field{journaltitle}{Computational statistics \& data analysis}
+    \field{year}{2009}
+  \endentry
+
+  \entry{simchi2023multi}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=SLD}{%
+         family={Simchi-Levi},
+         familyi={S\bibinithyphendelim L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Chonghuan},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{SLD+1}
+    \strng{fullhash}{SLDWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{International Conference on Artificial Intelligence and Statistics}
+    \field{pages}{3086\bibrangedash 3097}
+    \field{title}{Multi-armed bandit experimental design: Online decision-making and adaptive inference}
+    \field{year}{2023}
+  \endentry
+
+  \entry{sladek2007genome}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=SR}{%
+         family={Sladek},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rocheleau},
+         familyi={R\bibinitperiod},
+         given={Ghislain},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rung},
+         familyi={R\bibinitperiod},
+         given={Johan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dina},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Lishuang},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Serre},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Boutin},
+         familyi={B\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vincent},
+         familyi={V\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Belisle},
+         familyi={B\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hadjadj},
+         familyi={H\bibinitperiod},
+         given={Samy},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{SR+1}
+    \strng{fullhash}{SRRGRJDCSLSDBPVDBAHS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{7130}
+    \field{pages}{881\bibrangedash 885}
+    \field{title}{A genome-wide association study identifies novel risk loci for type 2 diabetes}
+    \field{volume}{445}
+    \field{journaltitle}{Nature}
+    \field{year}{2007}
+  \endentry
+
+  \entry{slivkins2019introduction}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Slivkins},
+         familyi={S\bibinitperiod},
+         given={Aleksandrs},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Now Publishers, Inc.}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1-2}
+    \field{pages}{1\bibrangedash 286}
+    \field{title}{Introduction to multi-armed bandits}
+    \field{volume}{12}
+    \field{journaltitle}{Foundations and Trends{\textregistered} in Machine Learning}
+    \field{year}{2019}
+  \endentry
+
+  \entry{tanniou2016subgroup}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TJ}{%
+         family={Tanniou},
+         familyi={T\bibinitperiod},
+         given={Julien},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VDTI}{%
+         family={Van Der\bibnamedelima Tweel},
+         familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Ingeborg},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Teerenstra},
+         familyi={T\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RKC}{%
+         family={Roes},
+         familyi={R\bibinitperiod},
+         given={Kit\bibnamedelima CB},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{TJ+1}
+    \strng{fullhash}{TJVDTITSRKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{1\bibrangedash 15}
+    \field{title}{Subgroup analyses in confirmatory clinical trials: time to be specific about their purposes}
+    \field{volume}{16}
+    \field{journaltitle}{BMC medical research methodology}
+    \field{year}{2016}
+  \endentry
+
+  \entry{waudby2024estimating}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WSI}{%
+         family={Waudby-Smith},
+         familyi={W\bibinithyphendelim S\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramdas},
+         familyi={R\bibinitperiod},
+         given={Aaditya},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press US}%
+    }
+    \strng{namehash}{WSI+1}
+    \strng{fullhash}{WSIRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 27}
+    \field{title}{Estimating means of bounded random variables by betting}
+    \field{volume}{86}
+    \field{journaltitle}{Journal of the Royal Statistical Society Series B: Statistical Methodology}
+    \field{year}{2024}
+  \endentry
+
+  \entry{wu2010interval}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WSS}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Samuel\bibnamedelima S},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weizhen},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=YMC}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Mark\bibnamedelima CK},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{WSS+1}
+    \strng{fullhash}{WSSWWYMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{2}
+    \field{pages}{405\bibrangedash 418}
+    \field{title}{Interval estimation for drop-the-losers designs}
+    \field{volume}{97}
+    \field{journaltitle}{Biometrika}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Zhang2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZK}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Kelly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Janson},
+         familyi={J\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZK+1}
+    \strng{fullhash}{ZKJLMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{pages}{9818\bibrangedash 9829}
+    \field{title}{Inference for batched bandits}
+    \field{volume}{33}
+    \field{journaltitle}{Advances in neural information processing systems}
+    \field{year}{2020}
+  \endentry
+\enddatalist
+\endinput
