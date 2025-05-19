@@ -4,9 +4,7 @@
 This repository reproduces the results reported in the following paper:
 
 Z. Niu and Z. Ren. “Assumption-lean weak limits and tests for two-stage
-adaptive experiments.”
-
-<!-- ([arXiv](https://arxiv.org/pdf/2407.08911)) -->
+adaptive experiments.” ([arXiv](https://arxiv.org/pdf/2505.10747))
 
 # Get started
 
